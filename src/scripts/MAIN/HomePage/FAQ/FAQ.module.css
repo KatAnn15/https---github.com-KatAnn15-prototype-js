@@ -1,0 +1,28 @@
+.faq-wrapper {
+  width: 100%;
+  padding: 60px;
+}
+.faq-container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+.faq_title {
+  margin: 0 auto;
+  width: 600px;
+  margin-bottom: 60px;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 769px) {
+  .faq-wrapper {
+    padding: 40px 10px;
+  }
+  .faq-container {
+    width: 100%;
+  }
+  .faq_title {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,6 @@
+.default-list-item-wrapper {
+  min-width: 350px;
+  height: 280px;
+  margin-right: 10px;
+  border-radius: 3px;
+}

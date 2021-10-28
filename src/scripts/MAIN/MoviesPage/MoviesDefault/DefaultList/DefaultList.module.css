@@ -1,0 +1,14 @@
+.default-list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  margin: 50px 0;
+}
+
+.title {
+  font-size: 35px;
+}

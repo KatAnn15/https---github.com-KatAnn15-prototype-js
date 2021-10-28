@@ -1,0 +1,127 @@
+.list-gallery-item-wrapper {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  height: 60vh;
+  display: flex;
+  padding: 0 100px;
+  justify-content: center;
+  align-items: center;
+}
+.item_media-data {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item_info-data {
+  width: 650px;
+  padding: 50px;
+}
+.list-gallery-item-wrapper:nth-child(2n + 1) {
+  flex-direction: row;
+}
+.list-gallery-item-wrapper:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.item_main-media {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  scale: 1.1;
+}
+.item_video-cover {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.item_title {
+  font-size: 44px;
+}
+.item_subtitle {
+  font-size: 22px;
+  margin-top: 30px;
+}
+.item_add-box {
+  z-index: 2;
+  display: flex;
+  width: 400px;
+  height: 130px;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+.box_img {
+  width: 70px;
+}
+.box_gif {
+  width: 70px;
+}
+.box_name {
+  font-size: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .list-gallery-item-wrapper {
+    padding: 10px;
+  }
+  .list-gallery-item-wrapper:nth-child(2n + 1) {
+    flex-direction: column;
+  }
+  .list-gallery-item-wrapper:nth-child(2n) {
+    flex-direction: column;
+  }
+  .item_info-data {
+    text-align: center;
+    width: 100%;
+  }
+  .item_title {
+    font-size: 34px;
+  }
+  .item_subtitle {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .list-gallery-item-wrapper {
+    padding: 10px;
+    height: 70vh;
+  }
+  .list-gallery-item-wrapper:nth-child(2n + 1) {
+    flex-direction: column;
+  }
+  .list-gallery-item-wrapper:nth-child(2n) {
+    flex-direction: column;
+  }
+  .item_info-data {
+    text-align: center;
+    width: 100%;
+  }
+  .item_media-data {
+    width: 100%;
+  }
+  .item_title {
+    font-size: 34px;
+  }
+  .item_subtitle {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .item_add-box {
+    width: 80%;
+  }
+}

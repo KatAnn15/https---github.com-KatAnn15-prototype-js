@@ -1,0 +1,16 @@
+.mode-controller-wrapper {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  cursor: pointer;
+  width: 300px;
+  margin: 0 auto;
+}
+.mode-controller_signup {
+  text-shadow: 0 0 1px red;
+}
+.mode-controller_login {
+  text-shadow: 0 0 1px blue;
+}

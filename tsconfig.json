@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES6",
+      "lib": ["es6", "es7", "DOM", "ES2016", "ES2017", "DOM.Iterable"], 
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "rootDir": "src",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "esModuleInterop": true,
+      "paths": {
+        "@actions/*": ["src/scripts/Actions/*"],
+        "@fire/*": ["src/scripts/Firebase/*"],
+        "@redux/*": ["src/scripts/Redux/*"],
+        "@tmdb/*": ["src/scripts/TMDB/*"]
+      }
+    },
+    "include": ["src/**/*", "src/Types_Declaration/Types_Declaration.d.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
+  

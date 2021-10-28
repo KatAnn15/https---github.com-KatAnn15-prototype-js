@@ -1,0 +1,28 @@
+.theme-switch-container {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.theme-switch-wrapper {
+  width: 70px;
+  height: 30px;
+}
+.theme-switch-element {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: relative;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 2px;
+  border: 1px solid;
+}
+.span {
+  width: 40%;
+  height: 95%;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+}

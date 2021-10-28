@@ -1,0 +1,29 @@
+.faq-item-wrapper {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.274);
+  margin-bottom: 7px;
+}
+.question-container {
+  width: 100%;
+  height: auto;
+  padding: 20px 15px;
+  cursor: pointer;
+}
+.question_text {
+  font-size: 28px;
+}
+
+.answer-container {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid black;
+  padding: 20px 15px;
+  display: none;
+  text-align: justify;
+}
+.answer {
+  font-size: 18px;
+}
+.toggle {
+  display: block;
+}

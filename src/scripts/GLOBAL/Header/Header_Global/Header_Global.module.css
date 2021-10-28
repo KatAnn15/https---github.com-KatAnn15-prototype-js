@@ -1,0 +1,16 @@
+.header_home-wrapper {
+  width: 100%;
+  height: 55px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  text-align: right;
+  padding: 8px;
+  position: relative;
+  z-index: 5;
+  background-color: rgba(128, 128, 128, 0.37);
+  position: fixed;
+}
+.header_home-wrapper :first-child {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

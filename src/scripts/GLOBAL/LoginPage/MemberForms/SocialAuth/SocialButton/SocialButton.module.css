@@ -1,0 +1,16 @@
+.social-button-wrapper {
+  width: 100%;
+}
+.social-button {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-button:hover {
+  box-shadow: 0 0 3px rgb(51, 26, 26);
+}
